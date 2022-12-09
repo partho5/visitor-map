@@ -1,0 +1,352 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.no-padding{
+	margin: 0;
+	padding: 0;
+}
+
+svg{
+    
+}
+
+#mapSvg{
+	//border: 2px solid #665533;	
+	//display: none;
+	//margin: 2em;
+
+	width: 80%;
+    height: 80%;
+}
+
+
+
+
+#inst{
+	position: absolute;
+	left: 25em;
+	top: 0.1em;
+	//background-color: #ecf0edaa;
+	font-size: 1.3em;
+	//border: 1px solid #c6d2c9;
+
+}
+#inst h3{
+	color: #1C74EB;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+#inst .p1{
+	color: #067DC9;
+}
+
+
+#map-info{
+	position: absolute;
+	right: 3em;
+	top: 1em;
+	background-color: #ecf0edaa;
+	font-size: 1.3em;
+	border: 1px solid #c6d2c9;
+}
+#map-info h3{
+	font-family: 'Raleway', sans-serif;
+	color: #000;
+	font-size: 1.3em;
+	font-family: "Helvetica Neue", Sans-Serif;
+	font-stretch: condensed;
+	text-transform: uppercase;
+	text-shadow: 1px 2px 1px #fff;
+	padding: 0.3em 0;
+}
+#map-info h3 span{
+	padding: 0 2em 4px 2em;
+	border-bottom: 1px solid #aabbaf;
+}
+
+.section{
+	color: #000;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+}
+.section .labels{
+	color: #444;
+}
+.section-wrapper.selected{
+	background-color: #dae1dccc;
+}
+.section.update-info{
+	font-size: 0.7em;
+	color: #5b7261;
+	margin-bottom: 3px;
+}
+.zoom-buttons{
+	position: absolute;
+	top: 2px;
+	left: 4px;
+	//width: 80px;
+	z-index: 2;
+}
+.zoom-buttons .icon img{
+	width: 20px;
+	height: 20px;
+	border: 2px solid #94959d;
+}
+.zoom-buttons .icon img:hover{
+	border-color: #00f;
+	cursor: pointer;
+}
+.zoom-buttons .restore-icon img{
+	border: 0;
+	margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+/* cls-1 to cls-8 are 8 divisions of Bangladesh  */
+.cls-1{fill:#ab717f;} /*Rangpur*/
+.cls-2{fill:#48647F;} /*Rajshahi*/
+.cls-3{fill:#1cb68b;} /*Khulna*/
+.cls-4{fill:#4673ce;} /*Barisal*/
+.cls-5{fill:#6fb652;} /*Chittagong*/
+.cls-6{fill:#388177;} /*Sylhet*/
+.cls-7{fill:#EB974E;} /*Mymensingh*/
+.cls-8{fill:#9c3ad2;} /*Dhaka*/
+
+.district{
+    background-color: #000;
+}
+
+path{
+    stroke: #fff;//000000aa
+}
+
+
+/*------------ Rangpur ------------*/
+#path1{
+	fill: #9BD186;
+}
+#path2{
+	fill: #88A7C6;
+}
+#path3{
+	fill: #F2D634;
+}
+#path4{
+	fill: #E68D15;
+}
+#path5{
+	fill: #E3CCA2;
+}
+#path6{
+	fill: #D4F6F8;
+}
+#path7{
+	fill: #388177;
+}
+#path8{
+	fill: #ab717f;
+}
+
+
+/*------------ Rajshahi ------------*/
+#path9{
+	fill: #ab717f;
+}
+#path10{
+	fill: #2ABB9B;
+}
+#path11{
+	fill: #6BA4B8;
+}
+#path12{
+	fill: #004F98;
+}
+#path13{
+	fill: #FFC000;
+}
+#path14{
+	fill: #79443B;
+}
+#path15{
+	fill: #E68D15;
+}
+#path16{
+	fill: #2ABB9B;
+}
+
+
+
+/*------------ Khulna ------------*/
+#path17{
+	fill: #ab717f;
+}
+#path18{
+	fill: #2ABB9B;
+}
+#path19{
+	fill: #6BA4B8;
+}
+#path20{
+	fill: #004F98;
+}
+#path21{
+	fill: #FFC000;
+}
+#path22{
+	fill: #79443B;
+}
+#path23{
+	fill: #6fb652;
+}
+#path24{
+	fill: #2ABB9B;
+}
+#path25{
+	fill: #E68D15;
+}
+#path26{
+	fill: #2ABB9B;
+}
+
+
+/*------------ Barisal ------------*/
+#path27{
+	fill: #ab717f;
+}
+#path28{
+	fill: #2ABB9B;
+}
+#path29{
+	fill: #E3CCA2;
+}
+#path30{
+	fill: #004F98;
+}
+#path31{
+	fill: #FFC000;
+}
+#path32{
+	fill: #79443B;
+}
+
+
+
+/*------------ Chittagong ------------*/
+#path33{
+	fill: #ab717f;
+}
+#path34{
+	fill: #2ABB9B;
+}
+#path35{
+	fill: #6BA4B8;
+}
+#path36{
+	fill: #004F98;
+}
+#path37{
+	fill: #FFC000;
+}
+#path38{
+	fill: #79443B;
+}
+#path39{
+	fill: #6fb652;
+}
+#path40{
+	fill: #9c3ad2;
+}
+#path41{
+	fill: #E68D15;
+}
+#path42{
+	fill: #2ABB9B;
+}
+#path43{
+	fill: #2ABB9B;
+}
+
+
+
+/*------------ Sylhet ------------*/
+#path44{
+	fill: #ab717f;
+}
+#path45{
+	fill: #2ABB9B;
+}
+#path46{
+	fill: #6BA4B8;
+}
+#path47{
+	fill: #004F98;
+}
+
+
+
+/*------------ Mymensingh ------------*/
+#path48{
+	fill: #9BD186;
+}
+#path49{
+	fill: #88A7C6;
+}
+#path50{
+	fill: #F2D634;
+}
+#path51{
+	fill: #E68D15;
+}
+
+
+
+
+
+/*------------ Dhaka ------------*/
+#path52{
+	fill: #ab717f;
+}
+#path53{
+	fill: #2ABB9B;
+}
+#path54{
+	fill: #6BA4B8;
+}
+#path55{
+	fill: #004F98;
+}
+#path56{
+	fill: #FFC000;
+}
+#path257{
+	fill: #79443B;
+}
+#path58{
+	fill: #6fb652;
+}
+#path59{
+	fill: #E3CCA2;
+}
+#path60{
+	fill: #E68D15;
+}
+#path61{
+	fill: #2ABB9B;
+}
+#path62{
+	fill: #ab717f;
+}
+#path63{
+	fill: #9c3ad2;
+}
+#path64{
+	fill: #6BA4B8;
+}
